@@ -23,7 +23,7 @@ def printer (attendees)
   batch_badge_creator (attendees)
 
   arr = []
-  arr << assign_rooms (attendees)
+  arr = assign_rooms (attendees)
   arr.each do |assigned_room|
     puts arr[assigned_room]
   end
