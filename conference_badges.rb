@@ -25,7 +25,7 @@ def printer (attendees)
     puts x
   end
   result_assign_rooms = assign_rooms(attendees)
-  result_assign_rooms.each |i|
+  result_assign_rooms.each do |i|
     puts i
   end
 end
