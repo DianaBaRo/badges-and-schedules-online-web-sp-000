@@ -28,9 +28,4 @@ def printer (attendees)
   result_assign_rooms.each |i|
     puts i
   end
-  arr = []
-  arr = assign_rooms (attendees)
-  arr.each do |i|
-    puts arr[i]
-  end
 end
