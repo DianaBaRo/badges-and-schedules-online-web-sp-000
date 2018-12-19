@@ -19,6 +19,10 @@ def assign_rooms (list_of_speakers)
   arr
 end
 
-def printer
-  
+def printer (assigned_rooms)
+  assign_rooms (list_of_speakers)
+  iterated_assign_rooms = assign_rooms (list_of_speakers)
+  iterated_assign_rooms.each do |assigned_room|
+    puts iterated_assign_rooms[assigned_room]
+  end
 end
